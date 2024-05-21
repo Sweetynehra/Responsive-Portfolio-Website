@@ -295,10 +295,13 @@ section {
 }
 
 .row {
+    height: 300px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    
+
 }
 
 .row img {
@@ -306,6 +309,7 @@ section {
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    /* max-height: 350px; */
 }
 
 .layer {
